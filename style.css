@@ -1,3 +1,7 @@
+body{
+  background-color: blanchedalmond;
+}
+
 figure {
 	margin: auto;
 }
@@ -12,7 +16,7 @@ figure figcaption {
   object-fit: contain;
 }
 
- /* Three image containers (use 25% for four, and 50% for two, etc) */
+ /* Three image containers (use 25% for four, 50% for two, etc) */
 .columntwo {
   float: left;
   width: 48%;
