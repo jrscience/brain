@@ -1,0 +1,44 @@
+body{
+  background-color: blanchedalmond;
+}
+
+figure {
+	margin: auto;
+}
+
+figure figcaption {
+  font-style: italic;
+}
+
+.img_multi{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+ /* Three image containers (use 25% for four, 50% for two, etc) */
+.columntwo {
+  float: left;
+  width: 48%;
+  padding: 5px;
+}
+
+.columnthree {
+  float: left;
+  width: 31%;
+  padding: 5px;
+}
+
+.columnfour {
+  float: left;
+  width: 23%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
